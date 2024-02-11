@@ -1,0 +1,685 @@
+﻿<Window x:Class="кнопки3._4.tasks"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:materialDesign="http://materialdesigninxaml.net/winfx/xaml/themes"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:кнопки3._4"
+      WindowStartupLocation="CenterScreen"
+      ResizeMode="NoResize"
+      WindowStyle="None"
+      Background="Transparent"
+      AllowsTransparency="True"
+        mc:Ignorable="d"
+        Title="tasks" Height="450" Width="800">
+    <Border CornerRadius="26">
+        <Grid Background="#484659">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="80"/>
+                <ColumnDefinition Width="80"/>
+                <ColumnDefinition Width="480"/>
+                <ColumnDefinition Width="80"/>
+                <ColumnDefinition Width="80"/>
+            </Grid.ColumnDefinitions>
+            <Grid.RowDefinitions>
+                <RowDefinition Height="60"/>
+                <RowDefinition Height="1*"/>
+            </Grid.RowDefinitions>
+
+            <Border Grid.RowSpan="2"
+                Grid.Column="0"
+                    CornerRadius="20"
+                    Margin="10"
+                    Background="#C5B2D8">
+                <StackPanel HorizontalAlignment="Center"
+
+                            VerticalAlignment="Center">
+                    <Button Background="Transparent" Click="Button_Click" Foreground="#484659" BorderBrush="#484659" Content="1" Height="25" Margin="0 0 0 2" FontSize="10">
+                        <Button.BitmapEffect>
+                            <DropShadowBitmapEffect Color="Black" Direction="320" Softness="1" ShadowDepth="10" Opacity="0.5" />
+                        </Button.BitmapEffect>
+                    </Button>
+                    <Button Background="Transparent" Click="Button_Click_1" Foreground="#484659" BorderBrush="#484659" Content="2" Height="25" Margin="0 0 0 2" FontSize="10">
+                        <Button.BitmapEffect>
+                            <DropShadowBitmapEffect Color="Black" Direction="320" Softness="1" ShadowDepth="10" Opacity="0.5" />
+                        </Button.BitmapEffect>
+                    </Button>
+                    <Button Background="Transparent" Click="Button_Click_2" Foreground="#484659" BorderBrush="#484659" Content="3" Height="25" Margin="0 0 0 2" FontSize="10">
+                        <Button.BitmapEffect>
+                            <DropShadowBitmapEffect Color="Black" Direction="320" Softness="1" ShadowDepth="10" Opacity="0.5" />
+                        </Button.BitmapEffect>
+                    </Button>
+                    <Button Background="Transparent" Click="Button_Click_3" Foreground="#484659" BorderBrush="#484659" Content="4" Height="25" Margin="0 0 0 2" FontSize="10">
+                        <Button.BitmapEffect>
+                            <DropShadowBitmapEffect Color="Black" Direction="320" Softness="1" ShadowDepth="10" Opacity="0.5" />
+                        </Button.BitmapEffect>
+                    </Button>
+                    <Button Background="Transparent" Click="Button_Click_4" Foreground="#484659" BorderBrush="#484659" Content="5" Height="25" Margin="0 0 0 2" FontSize="10">
+                        <Button.BitmapEffect>
+                            <DropShadowBitmapEffect Color="Black" Direction="320" Softness="1" ShadowDepth="10" Opacity="0.5" />
+                        </Button.BitmapEffect>
+                    </Button>
+                    <Button Background="Transparent" Click="Button_Click_5" Foreground="#484659" BorderBrush="#484659" Content="6" Height="25" Margin="0 0 0 2" FontSize="10">
+                        <Button.BitmapEffect>
+                            <DropShadowBitmapEffect Color="Black" Direction="320" Softness="1" ShadowDepth="10" Opacity="0.5" />
+                        </Button.BitmapEffect>
+                    </Button>
+                    <Button Background="Transparent" Click="Button_Click_6" Foreground="#484659" BorderBrush="#484659" Content="7" Height="25" Margin="0 0 0 2" FontSize="10">
+                        <Button.BitmapEffect>
+                            <DropShadowBitmapEffect Color="Black" Direction="320" Softness="1" ShadowDepth="10" Opacity="0.5" />
+                        </Button.BitmapEffect>
+                    </Button>
+                    <Button Background="Transparent" Click="Button_Click_7" Foreground="#484659" BorderBrush="#484659" Content="8" Height="25" Margin="0 0 0 2" FontSize="10">
+                        <Button.BitmapEffect>
+                            <DropShadowBitmapEffect Color="Black" Direction="320" Softness="1" ShadowDepth="10" Opacity="0.5" />
+                        </Button.BitmapEffect>
+                    </Button>
+                    <Button Background="Transparent" Click="Button_Click_8" Foreground="#484659" BorderBrush="#484659" Content="9" Height="25" Margin="0 0 0 2" FontSize="10">
+                        <Button.BitmapEffect>
+                            <DropShadowBitmapEffect Color="Black" Direction="320" Softness="1" ShadowDepth="10" Opacity="0.5" />
+                        </Button.BitmapEffect>
+                    </Button>
+                    <Button Background="Transparent" Click="Button_Click_9" Foreground="#484659" BorderBrush="#484659" Content="10" Height="25" Margin="0 0 0 2" FontSize="10">
+                        <Button.BitmapEffect>
+                            <DropShadowBitmapEffect Color="Black" Direction="320" Softness="1" ShadowDepth="10" Opacity="0.5" />
+                        </Button.BitmapEffect>
+                    </Button>
+                    <Button Background="Transparent" Click="Button_Click_10" Foreground="#484659" BorderBrush="#484659" Content="11" Height="25" Margin="0 0 0 2" FontSize="10">
+                        <Button.BitmapEffect>
+                            <DropShadowBitmapEffect Color="Black" Direction="320" Softness="1" ShadowDepth="10" Opacity="0.5" />
+                        </Button.BitmapEffect>
+                    </Button>
+                    <Button Background="Transparent" Click="Button_Click_11" Foreground="#484659" BorderBrush="#484659" Content="12" Height="25" Margin="0 0 0 2" FontSize="10">
+                        <Button.BitmapEffect>
+                            <DropShadowBitmapEffect Color="Black" Direction="320" Softness="1" ShadowDepth="10" Opacity="0.5" />
+                        </Button.BitmapEffect>
+                    </Button>
+                    <Button Background="Transparent" Click="Button_Click_12" Foreground="#484659" BorderBrush="#484659" Content="13" Height="25" Margin="0 0 0 2" FontSize="10">
+                        <Button.BitmapEffect>
+                            <DropShadowBitmapEffect Color="Black" Direction="320" Softness="1" ShadowDepth="10" Opacity="0.5" />
+                        </Button.BitmapEffect>
+                    </Button>
+                    <Button Background="Transparent" Click="Button_Click_13" Foreground="#484659" BorderBrush="#484659" Content="14" Height="25" Margin="0 0 0 2" FontSize="10">
+                        <Button.BitmapEffect>
+                            <DropShadowBitmapEffect Color="Black" Direction="320" Softness="1" ShadowDepth="10" Opacity="0.5" />
+                        </Button.BitmapEffect>
+                    </Button>
+                    <Button Background="Transparent" Click="Button_Click_14" Foreground="#484659" BorderBrush="#484659" Content="15" Height="25" Margin="0 0 0 2" FontSize="10">
+                        <Button.BitmapEffect>
+                            <DropShadowBitmapEffect Color="Black" Direction="320" Softness="1" ShadowDepth="10" Opacity="0.5" />
+                        </Button.BitmapEffect>
+                    </Button>
+
+
+
+
+
+                </StackPanel>
+                
+            </Border>
+            <Border Grid.RowSpan="2"
+                Grid.Column="1"
+        CornerRadius="20"
+        Margin="10"
+        Background="#C5B2D8">
+                <StackPanel HorizontalAlignment="Center"
+
+                VerticalAlignment="Center">
+                    <Button Background="Transparent" Click="Button_Click_15" Foreground="#484659" BorderBrush="#484659" Content="16" Height="25" Margin="0 0 0 2" FontSize="10">
+                        <Button.BitmapEffect>
+                            <DropShadowBitmapEffect Color="Black" Direction="320" Softness="1" ShadowDepth="10" Opacity="0.5" />
+                        </Button.BitmapEffect>
+                    </Button>
+                    <Button Background="Transparent" Click="Button_Click_16" Foreground="#484659" BorderBrush="#484659" Content="17" Height="25" Margin="0 0 0 2" FontSize="10">
+                        <Button.BitmapEffect>
+                            <DropShadowBitmapEffect Color="Black" Direction="320" Softness="1" ShadowDepth="10" Opacity="0.5" />
+                        </Button.BitmapEffect>
+                    </Button>
+                    <Button Background="Transparent" Click="Button_Click_17" Foreground="#484659" BorderBrush="#484659" Content="18" Height="25" Margin="0 0 0 2" FontSize="10">
+                        <Button.BitmapEffect>
+                            <DropShadowBitmapEffect Color="Black" Direction="320" Softness="1" ShadowDepth="10" Opacity="0.5" />
+                        </Button.BitmapEffect>
+                    </Button>
+                    <Button Background="Transparent" Click="Button_Click_18" Foreground="#484659" BorderBrush="#484659" Content="19" Height="25" Margin="0 0 0 2" FontSize="10">
+                        <Button.BitmapEffect>
+                            <DropShadowBitmapEffect Color="Black" Direction="320" Softness="1" ShadowDepth="10" Opacity="0.5" />
+                        </Button.BitmapEffect>
+                    </Button>
+                    <Button Background="Transparent" Click="Button_Click_19" Foreground="#484659" BorderBrush="#484659" Content="20" Height="25" Margin="0 0 0 2" FontSize="10">
+                        <Button.BitmapEffect>
+                            <DropShadowBitmapEffect Color="Black" Direction="320" Softness="1" ShadowDepth="10" Opacity="0.5" />
+                        </Button.BitmapEffect>
+                    </Button>
+                    <Button Background="Transparent" Click="Button_Click_20" Foreground="#484659" BorderBrush="#484659" Content="21" Height="25" Margin="0 0 0 2" FontSize="10">
+                        <Button.BitmapEffect>
+                            <DropShadowBitmapEffect Color="Black" Direction="320" Softness="1" ShadowDepth="10" Opacity="0.5" />
+                        </Button.BitmapEffect>
+                    </Button>
+                    <Button Background="Transparent" Click="Button_Click_21" Foreground="#484659" BorderBrush="#484659" Content="22" Height="25" Margin="0 0 0 2" FontSize="10">
+                        <Button.BitmapEffect>
+                            <DropShadowBitmapEffect Color="Black" Direction="320" Softness="1" ShadowDepth="10" Opacity="0.5" />
+                        </Button.BitmapEffect>
+                    </Button>
+                    <Button Background="Transparent" Click="Button_Click_22" Foreground="#484659" BorderBrush="#484659" Content="23" Height="25" Margin="0 0 0 2" FontSize="10">
+                        <Button.BitmapEffect>
+                            <DropShadowBitmapEffect Color="Black" Direction="320" Softness="1" ShadowDepth="10" Opacity="0.5" />
+                        </Button.BitmapEffect>
+                    </Button>
+                    <Button Background="Transparent" Click="Button_Click_23" Foreground="#484659" BorderBrush="#484659" Content="24" Height="25" Margin="0 0 0 2" FontSize="10">
+                        <Button.BitmapEffect>
+                            <DropShadowBitmapEffect Color="Black" Direction="320" Softness="1" ShadowDepth="10" Opacity="0.5" />
+                        </Button.BitmapEffect>
+                    </Button>
+                    <Button Background="Transparent" Click="Button_Click_24" Foreground="#484659" BorderBrush="#484659" Content="25" Height="25" Margin="0 0 0 2" FontSize="10">
+                        <Button.BitmapEffect>
+                            <DropShadowBitmapEffect Color="Black" Direction="320" Softness="1" ShadowDepth="10" Opacity="0.5" />
+                        </Button.BitmapEffect>
+                    </Button>
+                    <Button Background="Transparent"  Click="Button_Click_25" Foreground="#484659" BorderBrush="#484659" Content="26" Height="25" Margin="0 0 0 2" FontSize="10">
+                        <Button.BitmapEffect>
+                            <DropShadowBitmapEffect Color="Black" Direction="320" Softness="1" ShadowDepth="10" Opacity="0.5" />
+                        </Button.BitmapEffect>
+                    </Button>
+                    <Button Background="Transparent" Click="Button_Click_26" Foreground="#484659" BorderBrush="#484659" Content="27" Height="25" Margin="0 0 0 2" FontSize="10">
+                        <Button.BitmapEffect>
+                            <DropShadowBitmapEffect Color="Black" Direction="320" Softness="1" ShadowDepth="10" Opacity="0.5" />
+                        </Button.BitmapEffect>
+                    </Button>
+                    <Button Background="Transparent" Click="Button_Click_27" Foreground="#484659" BorderBrush="#484659" Content="28" Height="25" Margin="0 0 0 2" FontSize="10">
+                        <Button.BitmapEffect>
+                            <DropShadowBitmapEffect Color="Black" Direction="320" Softness="1" ShadowDepth="10" Opacity="0.5" />
+                        </Button.BitmapEffect>
+                    </Button>
+                    <Button Background="Transparent" Click="Button_Click_28" Foreground="#484659" BorderBrush="#484659" Content="29" Height="25" Margin="0 0 0 2" FontSize="10">
+                        <Button.BitmapEffect>
+                            <DropShadowBitmapEffect Color="Black" Direction="320" Softness="1" ShadowDepth="10" Opacity="0.5" />
+                        </Button.BitmapEffect>
+                    </Button>
+                    <Button Background="Transparent" Click="Button_Click_29" Foreground="#484659" BorderBrush="#484659" Content="30" Height="25" Margin="0 0 0 2" FontSize="10">
+                        <Button.BitmapEffect>
+                            <DropShadowBitmapEffect Color="Black" Direction="320" Softness="1" ShadowDepth="10" Opacity="0.5" />
+                        </Button.BitmapEffect>
+                    </Button>
+
+
+
+
+
+                </StackPanel>
+
+            </Border>
+            <Border Grid.RowSpan="2"
+                Grid.Column="3"
+CornerRadius="20"
+Margin="10"
+Background="#C5B2D8">
+                <StackPanel HorizontalAlignment="Center"
+
+        VerticalAlignment="Center">
+                    <Button Background="Transparent" Foreground="#484659" Click="Button_Click_30" BorderBrush="#484659" Content="31" Height="25" Margin="0 0 0 2" FontSize="10">
+                        <Button.BitmapEffect>
+                            <DropShadowBitmapEffect Color="Black" Direction="320" Softness="1" ShadowDepth="10" Opacity="0.5" />
+                        </Button.BitmapEffect>
+                    </Button>
+                    <Button Background="Transparent" Foreground="#484659" Click="Button_Click_31" BorderBrush="#484659" Content="32" Height="25" Margin="0 0 0 2" FontSize="10">
+                        <Button.BitmapEffect>
+                            <DropShadowBitmapEffect Color="Black" Direction="320" Softness="1" ShadowDepth="10" Opacity="0.5" />
+                        </Button.BitmapEffect>
+                    </Button>
+                    <Button Background="Transparent" Foreground="#484659" Click="Button_Click_32" BorderBrush="#484659" Content="33" Height="25" Margin="0 0 0 2" FontSize="10">
+                        <Button.BitmapEffect>
+                            <DropShadowBitmapEffect Color="Black" Direction="320" Softness="1" ShadowDepth="10" Opacity="0.5" />
+                        </Button.BitmapEffect>
+                    </Button>
+                    <Button Background="Transparent" Foreground="#484659" Click="Button_Click_33" BorderBrush="#484659" Content="34" Height="25" Margin="0 0 0 2" FontSize="10">
+                        <Button.BitmapEffect>
+                            <DropShadowBitmapEffect Color="Black" Direction="320" Softness="1" ShadowDepth="10" Opacity="0.5" />
+                        </Button.BitmapEffect>
+                    </Button>
+                    <Button Background="Transparent" Foreground="#484659" Click="Button_Click_34" BorderBrush="#484659" Content="35" Height="25" Margin="0 0 0 2" FontSize="10">
+                        <Button.BitmapEffect>
+                            <DropShadowBitmapEffect Color="Black" Direction="320" Softness="1" ShadowDepth="10" Opacity="0.5" />
+                        </Button.BitmapEffect>
+                    </Button>
+                    <Button Background="Transparent" Click="Button_Click_35" Foreground="#484659" BorderBrush="#484659" Content="36" Height="25" Margin="0 0 0 2" FontSize="10">
+                        <Button.BitmapEffect>
+                            <DropShadowBitmapEffect Color="Black" Direction="320" Softness="1" ShadowDepth="10" Opacity="0.5" />
+                        </Button.BitmapEffect>
+                    </Button>
+                    <Button Background="Transparent" Click="Button_Click_36" Foreground="#484659" BorderBrush="#484659" Content="37" Height="25" Margin="0 0 0 2" FontSize="10">
+                        <Button.BitmapEffect>
+                            <DropShadowBitmapEffect Color="Black" Direction="320" Softness="1" ShadowDepth="10" Opacity="0.5" />
+                        </Button.BitmapEffect>
+                    </Button>
+                    <Button Background="Transparent" Click="Button_Click_37" Foreground="#484659" BorderBrush="#484659" Content="38" Height="25" Margin="0 0 0 2" FontSize="10">
+                        <Button.BitmapEffect>
+                            <DropShadowBitmapEffect Color="Black" Direction="320" Softness="1" ShadowDepth="10" Opacity="0.5" />
+                        </Button.BitmapEffect>
+                    </Button>
+                    <Button Background="Transparent" Click="Button_Click_38" Foreground="#484659" BorderBrush="#484659" Content="39" Height="25" Margin="0 0 0 2" FontSize="10">
+                        <Button.BitmapEffect>
+                            <DropShadowBitmapEffect Color="Black" Direction="320" Softness="1" ShadowDepth="10" Opacity="0.5" />
+                        </Button.BitmapEffect>
+                    </Button>
+                    <Button Background="Transparent" Click="Button_Click_39" Foreground="#484659" BorderBrush="#484659" Content="40" Height="25" Margin="0 0 0 2" FontSize="10">
+                        <Button.BitmapEffect>
+                            <DropShadowBitmapEffect Color="Black" Direction="320" Softness="1" ShadowDepth="10" Opacity="0.5" />
+                        </Button.BitmapEffect>
+                    </Button>
+                    <Button Background="Transparent" Click="Button_Click_40" Foreground="#484659" BorderBrush="#484659" Content="41" Height="25" Margin="0 0 0 2" FontSize="10">
+                        <Button.BitmapEffect>
+                            <DropShadowBitmapEffect Color="Black" Direction="320" Softness="1" ShadowDepth="10" Opacity="0.5" />
+                        </Button.BitmapEffect>
+                    </Button>
+                    <Button Background="Transparent" Click="Button_Click_41" Foreground="#484659" BorderBrush="#484659" Content="42" Height="25" Margin="0 0 0 2" FontSize="10">
+                        <Button.BitmapEffect>
+                            <DropShadowBitmapEffect Color="Black" Direction="320" Softness="1" ShadowDepth="10" Opacity="0.5" />
+                        </Button.BitmapEffect>
+                    </Button>
+                    <Button Background="Transparent" Click="Button_Click_42" Foreground="#484659" BorderBrush="#484659" Content="43" Height="25" Margin="0 0 0 2" FontSize="10">
+                        <Button.BitmapEffect>
+                            <DropShadowBitmapEffect Color="Black" Direction="320" Softness="1" ShadowDepth="10" Opacity="0.5" />
+                        </Button.BitmapEffect>
+                    </Button>
+                    <Button Background="Transparent" Click="Button_Click_43"  Foreground="#484659" BorderBrush="#484659" Content="44" Height="25" Margin="0 0 0 2" FontSize="10">
+                        <Button.BitmapEffect>
+                            <DropShadowBitmapEffect Color="Black" Direction="320" Softness="1" ShadowDepth="10" Opacity="0.5" />
+                        </Button.BitmapEffect>
+                    </Button>
+                    <Button Background="Transparent" Click="Button_Click_44" Foreground="#484659" BorderBrush="#484659" Content="45" Height="25" Margin="0 0 0 2" FontSize="10">
+                        <Button.BitmapEffect>
+                            <DropShadowBitmapEffect Color="Black" Direction="320" Softness="1" ShadowDepth="10" Opacity="0.5" />
+                        </Button.BitmapEffect>
+                    </Button>
+                </StackPanel>
+            </Border>
+            <Border Grid.RowSpan="2"
+                Grid.Column="4"
+CornerRadius="20"
+Margin="10"
+Background="#C5B2D8">
+                <StackPanel HorizontalAlignment="Center"
+
+        VerticalAlignment="Center">
+                    <Button Background="Transparent" Foreground="#484659" BorderBrush="#484659" Content="46" Height="25" Margin="0 0 0 2" FontSize="10">
+                        <Button.BitmapEffect>
+                            <DropShadowBitmapEffect Color="Black" Direction="320" Softness="1" ShadowDepth="10" Opacity="0.5" />
+                        </Button.BitmapEffect>
+                    </Button>
+                    <Button Background="Transparent" Foreground="#484659" BorderBrush="#484659" Content="47" Height="25" Margin="0 0 0 2" FontSize="10">
+                        <Button.BitmapEffect>
+                            <DropShadowBitmapEffect Color="Black" Direction="320" Softness="1" ShadowDepth="10" Opacity="0.5" />
+                        </Button.BitmapEffect>
+                    </Button>
+                    <Button Background="Transparent" Foreground="#484659" BorderBrush="#484659" Content="48" Height="25" Margin="0 0 0 2" FontSize="10">
+                        <Button.BitmapEffect>
+                            <DropShadowBitmapEffect Color="Black" Direction="320" Softness="1" ShadowDepth="10" Opacity="0.5" />
+                        </Button.BitmapEffect>
+                    </Button>
+                    <Button Background="Transparent" Foreground="#484659" BorderBrush="#484659" Content="49" Height="25" Margin="0 0 0 2" FontSize="10">
+                        <Button.BitmapEffect>
+                            <DropShadowBitmapEffect Color="Black" Direction="320" Softness="1" ShadowDepth="10" Opacity="0.5" />
+                        </Button.BitmapEffect>
+                    </Button>
+                    <Button Background="Transparent" Foreground="#484659" BorderBrush="#484659" Content="50" Height="25" Margin="0 0 0 2" FontSize="10">
+                        <Button.BitmapEffect>
+                            <DropShadowBitmapEffect Color="Black" Direction="320" Softness="1" ShadowDepth="10" Opacity="0.5" />
+                        </Button.BitmapEffect>
+                    </Button>
+                    <Button Background="Transparent" Foreground="#484659" BorderBrush="#484659" Content="51" Height="25" Margin="0 0 0 2" FontSize="10">
+                        <Button.BitmapEffect>
+                            <DropShadowBitmapEffect Color="Black" Direction="320" Softness="1" ShadowDepth="10" Opacity="0.5" />
+                        </Button.BitmapEffect>
+                    </Button>
+                    <Button Background="Transparent" Foreground="#484659" BorderBrush="#484659" Content="52" Height="25" Margin="0 0 0 2" FontSize="10">
+                        <Button.BitmapEffect>
+                            <DropShadowBitmapEffect Color="Black" Direction="320" Softness="1" ShadowDepth="10" Opacity="0.5" />
+                        </Button.BitmapEffect>
+                    </Button>
+                    <Button Background="Transparent" Foreground="#484659" BorderBrush="#484659" Content="53" Height="25" Margin="0 0 0 2" FontSize="10">
+                        <Button.BitmapEffect>
+                            <DropShadowBitmapEffect Color="Black" Direction="320" Softness="1" ShadowDepth="10" Opacity="0.5" />
+                        </Button.BitmapEffect>
+                    </Button>
+                    <Button Background="Transparent" Foreground="#484659" BorderBrush="#484659" Content="54" Height="25" Margin="0 0 0 2" FontSize="10">
+                        <Button.BitmapEffect>
+                            <DropShadowBitmapEffect Color="Black" Direction="320" Softness="1" ShadowDepth="10" Opacity="0.5" />
+                        </Button.BitmapEffect>
+                    </Button>
+                    <Button Background="Transparent" Foreground="#484659" BorderBrush="#484659" Content="55" Height="25" Margin="0 0 0 2" FontSize="10">
+                        <Button.BitmapEffect>
+                            <DropShadowBitmapEffect Color="Black" Direction="320" Softness="1" ShadowDepth="10" Opacity="0.5" />
+                        </Button.BitmapEffect>
+                    </Button>
+                    <Button Background="Transparent" Foreground="#484659" BorderBrush="#484659" Content="56" Height="25" Margin="0 0 0 2" FontSize="10">
+                        <Button.BitmapEffect>
+                            <DropShadowBitmapEffect Color="Black" Direction="320" Softness="1" ShadowDepth="10" Opacity="0.5" />
+                        </Button.BitmapEffect>
+                    </Button>
+                    <Button Background="Transparent" Foreground="#484659" BorderBrush="#484659" Content="57" Height="25" Margin="0 0 0 2" FontSize="10">
+                        <Button.BitmapEffect>
+                            <DropShadowBitmapEffect Color="Black" Direction="320" Softness="1" ShadowDepth="10" Opacity="0.5" />
+                        </Button.BitmapEffect>
+                    </Button>
+                    <Button Background="Transparent" Foreground="#484659" BorderBrush="#484659" Content="58" Height="25" Margin="0 0 0 2" FontSize="10">
+                        <Button.BitmapEffect>
+                            <DropShadowBitmapEffect Color="Black" Direction="320" Softness="1" ShadowDepth="10" Opacity="0.5" />
+                        </Button.BitmapEffect>
+                    </Button>
+                    <Button Background="Transparent" Foreground="#484659" BorderBrush="#484659" Content="59" Height="25" Margin="0 0 0 2" FontSize="10">
+                        <Button.BitmapEffect>
+                            <DropShadowBitmapEffect Color="Black" Direction="320" Softness="1" ShadowDepth="10" Opacity="0.5" />
+                        </Button.BitmapEffect>
+                    </Button>
+                    <Button Background="Transparent" Foreground="#484659" BorderBrush="#484659" Content="60" Height="25" Margin="0 0 0 2" FontSize="10" Cursor="Hand">
+                        <Button.BitmapEffect>
+                            <DropShadowBitmapEffect Color="Black" Direction="320" Softness="1" ShadowDepth="10" Opacity="0.5" />
+                        </Button.BitmapEffect>
+                    </Button>
+                </StackPanel>
+            </Border>
+
+            <StackPanel Orientation="Horizontal" Grid.Row="0"
+                Grid.Column="2">
+                <Button Background="Transparent" Click="task1_Click" x:Name="task1" Content="u = sinx" BorderBrush="White" Margin="20 8 0 0" Width="100" Visibility="Hidden"/>
+                <Button Background="Transparent" Click="task1_1_Click" x:Name="task1_1" Content="u = cosx" BorderBrush="White" Margin="70 8 0 0" Width="100" Visibility="Hidden"/>
+                <Button Background="Transparent" Click="task1_2_Click" x:Name="task1_2" Content="u = tgx" BorderBrush="White" Margin="70 8 0 0" Width="100" Visibility="Hidden"/>
+            </StackPanel>
+            <StackPanel Orientation="Horizontal" Grid.Row="0"
+                Grid.Column="2">
+                <Button Background="Transparent" Click="task2_Click" x:Name="task2" Content="a=0.4,b=2.3,z=e²ˣ" BorderBrush="White" Margin="0 8 0 0" Width="145" Visibility="Hidden"/>
+                <Button Background="Transparent" Click="task2_1_Click" x:Name="task2_1" Content="a=0.2,b=0.8,z=eˣ" BorderBrush="White" Margin="23 8 0 0" Width="145" Visibility="Hidden"/>
+                <Button Background="Transparent" Click="task2_2_Click" x:Name="task2_2" Content="a=0.7,b=8.1,z=0.8" BorderBrush="White" Margin="22 8 0 0" Width="145" Visibility="Hidden"/>
+            </StackPanel>
+            <StackPanel Orientation="Horizontal" Grid.Row="0"
+                Grid.Column="2">
+                <Button Background="Transparent" Click="task3_Click" x:Name="task3" Content="b=-1.6,m=0.9,n=-1.4" BorderBrush="White" Margin="0 8 0 0" Width="150" Visibility="Hidden"/>
+                <Button Background="Transparent" Click="task3_1_Click" x:Name="task3_1" Content="b=4.5,m=-2,n=2.2" BorderBrush="White" Margin="9 8 0 0" Width="150" Visibility="Hidden"/>
+                <Button Background="Transparent" Click="task3_2_Click" x:Name="task3_2" Content="b=-4.5,m=0.5,n=-1.5" BorderBrush="White" Margin="9 8 0 0" Width="162" Visibility="Hidden"/>
+            </StackPanel>
+            <StackPanel Orientation="Horizontal" Grid.Row="0"
+    Grid.Column="2">
+                <Button Background="Transparent" Click="task4_Click" x:Name="task4" Content="a=0.2,b=0.5,z=eᵃˣ" BorderBrush="White" Margin="0 8 0 0" Width="150" Visibility="Hidden"/>
+                <Button Background="Transparent" Click="task4_1_Click" x:Name="task4_1" Content="a=0.15,b=0.2,z=e²ᵃˣ" BorderBrush="White" Margin="6 8 0 0" Width="155" Visibility="Hidden"/>
+                <Button Background="Transparent" Click="task4_2_Click" x:Name="task4_2" Content="a=0.9,b=5,z=e²˒⁵ᵃˣ" BorderBrush="White" Margin="6 8 0 0" Width="162" Visibility="Hidden"/>
+            </StackPanel>
+            <StackPanel Orientation="Horizontal" Grid.Row="0"
+ Grid.Column="2">
+                <Button Background="Transparent" Click="task5_Click" x:Name="task5" Content="a=4.2,b=5.3,c=1.5" BorderBrush="White" Margin="0 8 0 0" Width="150" Visibility="Hidden"/>
+                <Button Background="Transparent" Click="task5_1_Click" x:Name="task5_1" Content="a=-0.35,b=1.8,c=-1.8" BorderBrush="White" Margin="4 8 0 0" Width="161" Visibility="Hidden"/>
+                <Button Background="Transparent" Click="task5_2_Click" x:Name="task5_2" Content="a=2.8,b=-0.6,c=2" BorderBrush="White" Margin="3 8 0 0" Width="162" Visibility="Hidden" Cursor="Hand"/>
+            </StackPanel>
+            <StackPanel Orientation="Horizontal" Grid.Row="0"
+Grid.Column="2">
+                <Button Background="Transparent" Click="task6_Click" x:Name="task6" Content="a=-5,b=2.5,z=Ln|bx³|" BorderBrush="White" Margin="0 8 0 0" Width="150" FontSize="12.4" Visibility="Hidden"/>
+                <Button Background="Transparent" Click="task6_1_Click" x:Name="task6_1" Content="a=3,b=5,z=Ln|bx|" BorderBrush="White" Margin="15 8 0 0" Width="150" FontSize="12.4" Visibility="Hidden"/>
+                <Button Background="Transparent" Click="task6_2_Click" x:Name="task6_2" Content="a=-10,b=3,z=Ln|bx²|" BorderBrush="White" Margin="15 8 0 0" Width="150" FontSize="12.4" Visibility="Hidden"/>
+            </StackPanel>
+            <StackPanel Orientation="Horizontal" Grid.Row="0"
+Grid.Column="2">
+                <Button Background="Transparent" Click="task7_Click" x:Name="task7" Content="a=3.2,b=-0.7,c=2.2" BorderBrush="White" Margin="0 8 0 0" Width="150" FontSize="12.4" Visibility="Hidden"/>
+                <Button Background="Transparent" Click="task7_1_Click" x:Name="task7_1" Content="a=10.5,b=-2.5,c=5.6" BorderBrush="White" Margin="15 8 0 0" Width="150" FontSize="12.4" Visibility="Hidden"/>
+                <Button Background="Transparent" Click="task7_2_Click" x:Name="task7_2" Content="a=5.4,b=3,c=2.6" BorderBrush="White" Margin="15 8 0 0" Width="150" FontSize="12.4" Visibility="Hidden"/>
+            </StackPanel>
+            <StackPanel Orientation="Horizontal" Grid.Row="0"
+Grid.Column="2">
+                <Button Background="Transparent" Click="task8_Click" x:Name="task8" Content="k=3.1,m=5.15,n=-1.15" BorderBrush="White" Margin="0 8 0 0" Width="150" FontSize="12.4" Visibility="Hidden"/>
+                <Button Background="Transparent" Click="task8_1_Click" x:Name="task8_1" Content="k=0.78,m=-2.4,n=4.36" BorderBrush="White" Margin="15 8 0 0" Width="150" FontSize="12.4" Visibility="Hidden"/>
+                <Button Background="Transparent" Click="task8_2_Click" x:Name="task8_2" Content="k=1.1,m=0.8,n=0.41" BorderBrush="White" Margin="15 8 0 0" Width="150" FontSize="12.4" Visibility="Hidden"/>
+            </StackPanel>
+            <StackPanel Orientation="Horizontal" Grid.Row="0"
+Grid.Column="2">
+                <Button Background="Transparent" Click="task9_Click" x:Name="task9" Content="a=1.2,b=7.2,z=eˣ" BorderBrush="White" Margin="0 8 0 0" Width="150" FontSize="12.4" Visibility="Hidden"/>
+                <Button Background="Transparent" Click="task9_1_Click" x:Name="task9_1" Content="a=-1.5,b=3.2,z=e²ˣ" BorderBrush="White" Margin="15 8 0 0" Width="150" FontSize="12.4" Visibility="Hidden"/>
+                <Button Background="Transparent" Click="task9_2_Click" x:Name="task9_2" Content="a=1.7,b=5.5,z=e³" BorderBrush="White" Margin="15 8 0 0" Width="150" FontSize="12.4" Visibility="Hidden"/>
+            </StackPanel>
+            <StackPanel Orientation="Horizontal" Grid.Row="0"
+Grid.Column="2">
+                <Button Background="Transparent" Click="task10_Click" x:Name="task10" Content="a=0.1,b=9.8,c=11.12" BorderBrush="White" Margin="0 8 0 0" Width="150" FontSize="12.4" Visibility="Hidden"/>
+                <Button Background="Transparent" Click="task10_1_Click" x:Name="task10_1" Content="a=10,b=10.05,c=6.2" BorderBrush="White" Margin="15 8 0 0" Width="150" FontSize="12.4" Visibility="Hidden"/>
+                <Button Background="Transparent" Click="task10_2_Click" x:Name="task10_2" Content="a=100,b=3.03,c=7.12" BorderBrush="White" Margin="15 8 0 0" Width="150" FontSize="12.4" Visibility="Hidden"/>
+            </StackPanel>
+            <StackPanel Orientation="Horizontal" Grid.Row="0"
+Grid.Column="2">
+                <Button Background="Transparent" Click="task11_Click" x:Name="task11" Content="a=-1,b=3.4,z=tgbx" BorderBrush="White" Margin="0 8 0 0" Width="150" FontSize="12.4" Visibility="Hidden"/>
+                <Button Background="Transparent" Click="task11_1_Click" x:Name="task11_1" Content="a=-3.2,b=5.5,z=tgbx²" BorderBrush="White" Margin="15 8 0 0" Width="150" FontSize="12.2" Visibility="Hidden"/>
+                <Button Background="Transparent" Click="task11_2_Click" x:Name="task11_2" Content="a=-5.2,b=7.2,z=tgbx³" BorderBrush="White" Margin="15 8 0 0" Width="150" FontSize="12.2" Visibility="Hidden"/>
+            </StackPanel>
+            <StackPanel Orientation="Horizontal" Grid.Row="0"
+Grid.Column="2">
+                <Button Background="Transparent" Click="task12_Click" x:Name="task12" Content="k=4,m=-14.7,n=-0.6" BorderBrush="White" Margin="0 8 0 0" Width="150" FontSize="12.4" Visibility="Hidden"/>
+                <Button Background="Transparent" Click="task12_1_Click" x:Name="task12_1" Content="k=3,m=6.5,n=3.15" BorderBrush="White" Margin="15 8 0 0" Width="150" FontSize="12.4" Visibility="Hidden"/>
+                <Button Background="Transparent" Click="task12_2_Click" x:Name="task12_2" Content="k=5,m=-12,n=0.45" BorderBrush="White" Margin="15 8 0 0" Width="150" FontSize="12.4" Visibility="Hidden"/>
+            </StackPanel>
+            <StackPanel Orientation="Horizontal" Grid.Row="0"
+Grid.Column="2">
+                <Button Background="Transparent" Click="task13_Click" x:Name="task13" Content="k=1.33,r=0.85,s=3.5" BorderBrush="White" Margin="0 8 0 0" Width="150" FontSize="12.4" Visibility="Hidden"/>
+                <Button Background="Transparent" Click="task13_1_Click" x:Name="task13_1" Content="k=0.9,r=3.3,s=1.2" BorderBrush="White" Margin="15 8 0 0" Width="150" FontSize="12.4" Visibility="Hidden"/>
+                <Button Background="Transparent" Click="task13_2_Click" x:Name="task13_2" Content="k=1.57,r=0.75,s=2.15" BorderBrush="White" Margin="15 8 0 0" Width="150" FontSize="12.4" Visibility="Hidden"/>
+            </StackPanel>
+            <StackPanel Orientation="Horizontal" Grid.Row="0"
+Grid.Column="2">
+                <Button Background="Transparent" Click="task14_Click" x:Name="task14" Content="a=0.5,b=4.5,z=eᵃˣ" BorderBrush="White" Margin="0 8 0 0" Width="150" FontSize="12.4" Visibility="Hidden"/>
+                <Button Background="Transparent" Click="task14_1_Click" x:Name="task14_1" Content="a=0.5,b=3.7,z=e²ᵃˣ" BorderBrush="White" Margin="15 8 0 0" Width="150" FontSize="12.4" Visibility="Hidden"/>
+                <Button Background="Transparent" Click="task14_2_Click" x:Name="task14_2" Content="a=0.5,b=2.7,z=e²˒⁵ᵃˣ" BorderBrush="White" Margin="15 8 0 0" Width="150" FontSize="12.4" Visibility="Hidden"/>
+            </StackPanel>
+            <StackPanel Orientation="Horizontal" Grid.Row="0"
+Grid.Column="2">
+                <Button Background="Transparent" Click="task15_Click" x:Name="task15" Content="a=3.5,b=-0.73,c=2.5" BorderBrush="White" Margin="0 8 0 0" Width="150" FontSize="12.4" Visibility="Hidden"/>
+                <Button Background="Transparent" Click="task15_1_Click" x:Name="task15_1" Content="a=15.4,b=-5.6,c=3.5" BorderBrush="White" Margin="15 8 0 0" Width="150" FontSize="12.4" Visibility="Hidden"/>
+                <Button Background="Transparent" Click="task15_2_Click" x:Name="task15_2" Content="a=5.1,b=4,c=2.7" BorderBrush="White" Margin="15 8 0 0" Width="150" FontSize="12.4" Visibility="Hidden"/>
+            </StackPanel>
+            <StackPanel Orientation="Horizontal" Grid.Row="0"
+Grid.Column="2">
+                <Button Background="Transparent" Click="task16_Click" x:Name="task16" Content="a=0.1,b=0.5,z=e²˒⁵ᵃˣ" BorderBrush="White" Margin="0 8 0 0" Width="150" FontSize="12.4" Visibility="Hidden"/>
+                <Button Background="Transparent" Click="task16_1_Click" x:Name="task16_1" Content="a=1.2,b=2.5,z=e²˒⁵ᵃˣ" BorderBrush="White" Margin="15 8 0 0" Width="150" FontSize="12.4" Visibility="Hidden"/>
+                <Button Background="Transparent" Click="task16_2_Click" x:Name="task16_2" Content="a=2.5,b=1.2,z=e²˒⁵ᵃˣ" BorderBrush="White" Margin="15 8 0 0" Width="150" FontSize="12.4" Visibility="Hidden"/>
+            </StackPanel>
+            <StackPanel Orientation="Horizontal" Grid.Row="0"
+Grid.Column="2">
+                <Button Background="Transparent" Click="task17_Click" x:Name="task17" Content="a=-1.2,b=0.75,z=Ln(|tg(bx)|)" BorderBrush="White" Margin="0 8 0 0" Width="150" FontSize="9.3" Visibility="Hidden"/>
+                <Button Background="Transparent" Click="task17_1_Click" x:Name="task17_1" Content="a=0.4,b=2.4,z=Ln(|tg(bx)|)" BorderBrush="White" Margin="15 8 0 0" Width="150" FontSize="9.9" Visibility="Hidden"/>
+                <Button Background="Transparent" Click="task17_2_Click" x:Name="task17_2" Content="a=1.1,b=6.1,z=Ln(|tg(bx)|)" BorderBrush="White" Margin="15 8 0 0" Width="150" FontSize="10.4" Visibility="Hidden"/>
+            </StackPanel>
+            <StackPanel Orientation="Horizontal" Grid.Row="0"
+Grid.Column="2">
+                <Button Background="Transparent" Click="task18_Click" x:Name="task18" Content="a=6,b=3.2,z=e¹˒⁵ˣ" BorderBrush="White" Margin="0 8 0 0" Width="150" FontSize="12.4" Visibility="Hidden"/>
+                <Button Background="Transparent" Click="task18_1_Click" x:Name="task18_1" Content="a=3,b=6,z=e¹˒⁵ˣ" BorderBrush="White" Margin="15 8 0 0" Width="150" FontSize="12.4" Visibility="Hidden"/>
+                <Button Background="Transparent" Click="task18_2_Click" x:Name="task18_2" Content="a=2.8,b=1.8,z=e¹˒⁵ˣ" BorderBrush="White" Margin="15 8 0 0" Width="150" FontSize="12.4" Visibility="Hidden" Cursor="Hand"/>
+            </StackPanel>
+            <StackPanel Orientation="Horizontal" Grid.Row="0"
+Grid.Column="2">
+                <Button Background="Transparent" Click="task19_Click" x:Name="task19" Content="a=2.2,b=2.4,c=Ln|bx|" BorderBrush="White" Margin="0 8 0 0" Width="150" FontSize="12.4" Visibility="Hidden"/>
+                <Button Background="Transparent" Click="task19_1_Click" x:Name="task19_1" Content="a=1.6,b=1.7,c=Ln|bx|" BorderBrush="White" Margin="15 8 0 0" Width="150" FontSize="12.4" Visibility="Hidden"/>
+                <Button Background="Transparent" Click="task19_2_Click" x:Name="task19_2" Content="a=1.3,b=4.2,c=Ln|b²x|" BorderBrush="White" Margin="15 8 0 0" Width="150" FontSize="12" Visibility="Hidden"/>
+            </StackPanel>
+            <StackPanel Orientation="Horizontal" Grid.Row="0"
+Grid.Column="2">
+                <Button Background="Transparent" Click="task20_Click" x:Name="task20" Content="a=0.8,b=2.4,f=e¹˒⁵ᵃˣ" BorderBrush="White" Margin="0 8 0 0" Width="150" FontSize="12.4" Visibility="Hidden"/>
+                <Button Background="Transparent" Click="task20_1_Click" x:Name="task20_1" Content="a=1.2,b=4.2,f=e²ᵃˣ" BorderBrush="White" Margin="15 8 0 0" Width="150" FontSize="12.4" Visibility="Hidden"/>
+                <Button Background="Transparent" Click="task20_2_Click" x:Name="task20_2" Content="a=3.4,b=8.1,f=e³ᵃˣ" BorderBrush="White" Margin="15 8 0 0" Width="150" FontSize="12.4" Visibility="Hidden"/>
+            </StackPanel>
+            <StackPanel Orientation="Horizontal" Grid.Row="0"
+Grid.Column="2">
+                <Button Background="Transparent" Click="task21_Click" x:Name="task21" Content="a=4.5,b=8.4,z=tg(bx)²" BorderBrush="White" Margin="0 8 0 0" Width="150" FontSize="12.4" Visibility="Hidden"/>
+                <Button Background="Transparent" Click="task21_1_Click" x:Name="task21_1" Content="a=8.2,b=15.2,z=tg(bx)²" BorderBrush="White" Margin="15 8 0 0" Width="150" FontSize="11.4" Visibility="Hidden"/>
+                <Button Background="Transparent" Click="task21_2_Click" x:Name="task21_2" Content="a=1.7,b=0.5,z=tg(b²x)" BorderBrush="White" Margin="15 8 0 0" Width="150" FontSize="11.4" Visibility="Hidden"/>
+            </StackPanel>
+            <StackPanel Orientation="Horizontal" Grid.Row="0"
+Grid.Column="2">
+                <Button Background="Transparent" Click="task22_Click" x:Name="task22" Content="a=0.3,b=0.9,z=sinx²" BorderBrush="White" Margin="0 8 0 0" Width="150" FontSize="12.4" Visibility="Hidden"/>
+                <Button Background="Transparent" Click="task22_1_Click" x:Name="task22_1" Content="a=4.3,b=3.15,z=sinx³" BorderBrush="White" Margin="15 8 0 0" Width="150" FontSize="11.4" Visibility="Hidden"/>
+                <Button Background="Transparent" Click="task22_2_Click" x:Name="task22_2" Content="a=6.5,b=3.3,z=sin²" BorderBrush="White" Margin="15 8 0 0" Width="150" FontSize="11.4" Visibility="Hidden"/>
+            </StackPanel>
+            <StackPanel Orientation="Horizontal" Grid.Row="0"
+Grid.Column="2">
+                <Button Background="Transparent" Click="task23_Click" x:Name="task23" Content="a=1.5,b=6.4,z=ln|bx³+1.5|" BorderBrush="White" Margin="0 8 0 0" Width="150" FontSize="10" Visibility="Hidden"/>
+                <Button Background="Transparent" Click="task23_1_Click" x:Name="task23_1" Content="a=1.9,b=8.6,z=ln|bx³+3|" BorderBrush="White" Margin="15 8 0 0" Width="150" FontSize="11" Visibility="Hidden"/>
+                <Button Background="Transparent" Click="task23_2_Click" x:Name="task23_2" Content="a=0.6,b=2.4,z=ln|bx³+1.8|" BorderBrush="White" Margin="15 8 0 0" Width="150" FontSize="10" Visibility="Hidden"/>
+            </StackPanel>
+            <StackPanel Orientation="Horizontal" Grid.Row="0"
+Grid.Column="2">
+                <Button Background="Transparent" Click="task24_Click" x:Name="task24" Content="a=8.7,b=3.7,z=tg(bx)" BorderBrush="White" Margin="0 8 0 0" Width="150" FontSize="12.4" Visibility="Hidden"/>
+                <Button Background="Transparent" Click="task24_1_Click" x:Name="task24_1" Content="a=9.3,b=3.5,z=tg(abx)" BorderBrush="White" Margin="15 8 0 0" Width="150" FontSize="11.4" Visibility="Hidden"/>
+                <Button Background="Transparent" Click="task24_2_Click"  x:Name="task24_2" Content="a=2.1,b=5.7,z=tg(b²x)" BorderBrush="White" Margin="15 8 0 0" Width="150" FontSize="11.4" Visibility="Hidden"/>
+            </StackPanel>
+            <StackPanel Orientation="Horizontal" Grid.Row="0"
+Grid.Column="2">
+                <Button Background="Transparent" Click="task25_Click"  x:Name="task25" Content="a=1.5,b=5.7,z=ln|tg(bx)|" BorderBrush="White" Margin="0 8 0 0" Width="150" FontSize="11" Visibility="Hidden"/>
+                <Button Background="Transparent" Click="task25_1_Click" x:Name="task25_1" Content="a=3.7,b=8.4,z=ln|tg(bx)|" BorderBrush="White" Margin="15 8 0 0" Width="150" FontSize="10.8" Visibility="Hidden"/>
+                <Button Background="Transparent" Click="task25_2_Click" x:Name="task25_2" Content="a=2.1,b=5.6,z=ln|tg(bx)|" BorderBrush="White" Margin="15 8 0 0" Width="150" FontSize="10.8" Visibility="Hidden"/>
+            </StackPanel>
+            <StackPanel Orientation="Horizontal" Grid.Row="0"
+Grid.Column="2">
+                <Button Background="Transparent" Click="task26_Click" x:Name="task26" Content="z=arcsinx³" BorderBrush="White" Margin="0 8 0 0" Width="150" FontSize="15" Visibility="Hidden"/>
+                <Button Background="Transparent" Click="task26_1_Click" x:Name="task26_1" Content="z=arccos²x" BorderBrush="White" Margin="15 8 0 0" Width="150" FontSize="15" Visibility="Hidden"/>
+                <Button Background="Transparent" Click="task26_2_Click" x:Name="task26_2" Content="z=tgx" BorderBrush="White" Margin="15 8 0 0" Width="150" FontSize="15" Visibility="Hidden"/>
+            </StackPanel>
+            <StackPanel Orientation="Horizontal" Grid.Row="0"
+Grid.Column="2">
+                <Button Background="Transparent" Click="task27_Click" x:Name="task27" Content="a=0.5,b=1.5,p=-4" BorderBrush="White" Margin="0 8 0 0" Width="150" FontSize="12.4" Visibility="Hidden"/>
+                <Button Background="Transparent" Click="task27_1_Click" x:Name="task27_1" Content="a=-1,b=0.5,p=-4" BorderBrush="White" Margin="15 8 0 0" Width="150" FontSize="11.4" Visibility="Hidden"/>
+                <Button Background="Transparent" Click="task27_2_Click" x:Name="task27_2" Content="a=-2,b=6,p=-4" BorderBrush="White" Margin="15 8 0 0" Width="150" FontSize="11.4" Visibility="Hidden"/>
+            </StackPanel>
+            <StackPanel Orientation="Horizontal" Grid.Row="0"
+Grid.Column="2">
+                <Button Background="Transparent" Click="task28_Click" x:Name="task28" Content="a=7.2,b=-1.3,c=2.5" BorderBrush="White" Margin="0 8 0 0" Width="150" FontSize="12.4" Visibility="Hidden"/>
+                <Button Background="Transparent" Click="task28_1_Click" x:Name="task28_1" Content="a=1.47,b=3.81,c=2.8" BorderBrush="White" Margin="15 8 0 0" Width="150" FontSize="11.4" Visibility="Hidden"/>
+                <Button Background="Transparent" Click="task28_2_Click" x:Name="task28_2" Content="a=4.8,b=10.6,c=2.7" BorderBrush="White" Margin="15 8 0 0" Width="150" FontSize="11.4" Visibility="Hidden"/>
+            </StackPanel>
+            <StackPanel Orientation="Horizontal" Grid.Row="0"
+Grid.Column="2">
+                <Button Background="Transparent" Click="task29_Click" x:Name="task29" Content="k=-0.3,r=0.85,s=3.5" BorderBrush="White" Margin="0 8 0 0" Width="150" FontSize="12.4" Visibility="Hidden"/>
+                <Button Background="Transparent" Click="task29_1_Click" x:Name="task29_1" Content="k=0.9,r=3.3,s=1.2" BorderBrush="White" Margin="15 8 0 0" Width="150" FontSize="11.4" Visibility="Hidden"/>
+                <Button Background="Transparent" Click="task29_2_Click" x:Name="task29_2" Content="k=-0.7,r=0.75,s=2.15" BorderBrush="White" Margin="15 8 0 0" Width="150" FontSize="11.4" Visibility="Hidden"/>
+            </StackPanel>
+            <StackPanel Orientation="Horizontal" Grid.Row="0"
+Grid.Column="2">
+                <Button Background="Transparent" Click="task30_Click" x:Name="task30" Content="a=1.5,b=5.7,z=ln|tg(bx)|" BorderBrush="White" Margin="0 8 0 0" Width="150" FontSize="11" Visibility="Hidden"/>
+                <Button Background="Transparent" Click="task30_1_Click" x:Name="task30_1" Content="a=3.7,b=8.4,z=ln|tg(bx)|" BorderBrush="White" Margin="15 8 0 0" Width="150" FontSize="10.8" Visibility="Hidden"/>
+                <Button Background="Transparent" Click="task30_2_Click" x:Name="task30_2" Content="a=4.4,b=5.6,z=ln|tg(bx)|" BorderBrush="White" Margin="15 8 0 0" Width="150" FontSize="10.8" Visibility="Hidden"/>
+            </StackPanel>
+            <StackPanel Orientation="Horizontal" Grid.Row="0"
+Grid.Column="2">
+                <TextBlock x:Name="text" Foreground="White" FontSize="15" Margin="5 10 0 0" Visibility="Hidden">числа расположеные между A и B(включительно) по возрастающей</TextBlock>
+            </StackPanel>
+
+                <Button Width="100" Click="result_Click" x:Name="result" Background="Transparent" BorderBrush="White" Foreground="White" Content="результат" Grid.Row="1"
+Grid.Column="2" Visibility="Hidden"/>
+    
+
+            <StackPanel Orientation="Horizontal" Grid.Row="0"
+Grid.Column="2">
+                <TextBlock x:Name="text1" Foreground="White" FontSize="15" Margin="10 10 0 0" Visibility="Hidden">числа расположеные между A и B(не включительно) по убыванию</TextBlock>
+            </StackPanel>
+
+                <Button Width="100" Click="result1_Click" x:Name="result1" Background="Transparent" BorderBrush="White" Foreground="White" Content="результат" Grid.Row="1"
+Grid.Column="2" Visibility="Hidden"/>
+
+            <StackPanel Orientation="Horizontal" Grid.Row="0"
+Grid.Column="2">
+                <TextBlock x:Name="text2" Foreground="White" FontSize="15" Margin="170 10 0 0" Visibility="Hidden">А перемноженные N раз</TextBlock>
+            </StackPanel>
+
+            <Button Width="100" Click="result2_Click" x:Name="result2" Background="Transparent" BorderBrush="White" Foreground="White" Content="результат" Grid.Row="1"
+Grid.Column="2" Visibility="Hidden"/>
+            <StackPanel Orientation="Horizontal" Grid.Row="0"
+Grid.Column="2">
+                <TextBlock x:Name="text3" Foreground="White" FontSize="15" Margin="170 10 0 0" Visibility="Hidden">степени числа  A от 1 до N</TextBlock>
+            </StackPanel>
+
+            <Button Width="100" Click="result3_Click" x:Name="result3" Background="Transparent" BorderBrush="White" Foreground="White" Content="результат" Grid.Row="1"
+Grid.Column="2" Visibility="Hidden"/>
+            <StackPanel Orientation="Horizontal" Grid.Row="0"
+Grid.Column="2">
+                <TextBlock x:Name="text4" Foreground="White" FontSize="15" Margin="60 10 0 0" Visibility="Hidden">"1 + A + A2 +
+A3 + + AN" и  "1 -
+A + A2 - A3 + + (-1)AN"</TextBlock>
+            </StackPanel>
+
+            <Button Width="100" Click="result4_Click" x:Name="result4" Background="Transparent" BorderBrush="White" Foreground="White" Content="результат" Grid.Row="1"
+Grid.Column="2" Visibility="Hidden"/>
+            
+            <StackPanel Orientation="Horizontal" Grid.Row="0"
+Grid.Column="2">
+                <TextBlock x:Name="text5" Foreground="White" FontSize="10.4" Margin="0 15 0 0" Visibility="Hidden">наименьшее целое среди последовательности чисел, при котором выполняется неравенство 3K> N</TextBlock>
+            </StackPanel>
+
+            <Button Width="100" Click="result5_Click" x:Name="result5" Background="Transparent" BorderBrush="White" Foreground="White" Content="результат" Grid.Row="1"
+Grid.Column="2" Visibility="Hidden"/>
+
+            <StackPanel Orientation="Horizontal" Grid.Row="0"
+Grid.Column="2">
+                <TextBlock x:Name="text6" Foreground="White" FontSize="15" Margin="70 10 0 0" Visibility="Hidden">наибольшее целое среди последовательности чисел</TextBlock>
+            </StackPanel>
+
+            <Button Width="100" Click="result6_Click" x:Name="result6" Background="Transparent" BorderBrush="White" Foreground="White" Content="результат" Grid.Row="1"
+Grid.Column="2" Visibility="Hidden"/>
+
+            <StackPanel Orientation="Horizontal" Grid.Row="0"
+Grid.Column="2">
+                <TextBlock x:Name="text7" Foreground="White" FontSize="15" Margin="150 10 0 0" Visibility="Hidden">наименьшее из целых чисел  N</TextBlock>
+            </StackPanel>
+
+            <Button Width="100" Click="result7_Click" x:Name="result7" Background="Transparent" BorderBrush="White" Foreground="White" Content="результат" Grid.Row="1"
+Grid.Column="2" Visibility="Hidden"/>
+
+            <StackPanel Orientation="Horizontal" Grid.Row="0"
+Grid.Column="2">
+                <TextBlock x:Name="text8" Foreground="White" FontSize="15" Margin="35 10 0 0" Visibility="Hidden">произведение 1-2•N, избегая целочисленного переполнения</TextBlock>
+            </StackPanel>
+
+            <Button Width="100" Click="result8_Click" x:Name="result8" Background="Transparent" BorderBrush="White" Foreground="White" Content="результат" Grid.Row="1"
+Grid.Column="2" Visibility="Hidden"/>
+
+            <StackPanel Orientation="Horizontal" Grid.Row="0"
+Grid.Column="2">
+                <TextBlock x:Name="text9" Foreground="White" FontSize="15" Margin="130 10 0 0" Visibility="Hidden">произведение 2 •1/(2) • 1/(3) •… 1/(N)</TextBlock>
+            </StackPanel>
+
+            <Button Width="100" Click="result9_Click" x:Name="result9" Background="Transparent" BorderBrush="White" Foreground="White" Content="результат" Grid.Row="1"
+Grid.Column="2" Visibility="Hidden"/>
+            <StackPanel Orientation="Horizontal" Grid.Row="0"
+Grid.Column="2">
+                <TextBlock x:Name="text10" Foreground="White" FontSize="15" Margin="150 10 0 0" Visibility="Hidden">значение 1 + X+ X2/2 + + XN/N</TextBlock>
+            </StackPanel>
+
+            <Button Width="100" Click="result10_Click" x:Name="result10" Background="Transparent" BorderBrush="White" Foreground="White" Content="результат" Grid.Row="1"
+Grid.Column="2" Visibility="Hidden"/>
+            <StackPanel Orientation="Horizontal" Grid.Row="0"
+Grid.Column="2">
+                <TextBlock x:Name="text11" Foreground="White" FontSize="15" Margin="100 10 0 0" Visibility="Hidden">значение Х-X3/3 + X5/5 - + (-1)2N+1/(2N+1)</TextBlock>
+            </StackPanel>
+
+            <Button Width="100" Click="result11_Click" x:Name="result11" Background="Transparent" BorderBrush="White" Foreground="White" Content="результат" Grid.Row="1"
+Grid.Column="2" Visibility="Hidden"/>
+            <StackPanel Orientation="Horizontal" Grid.Row="0"
+Grid.Column="2">
+                <TextBlock x:Name="text12" Foreground="White" FontSize="15" Margin="80 10 0 0" Visibility="Hidden">Найти значение 1 -X2/2 + X4/4 - + (-1)X2N/(2N)</TextBlock>
+            </StackPanel>
+
+            <Button Width="100" Click="result12_Click" x:Name="result12" Background="Transparent" BorderBrush="White" Foreground="White" Content="результат" Grid.Row="1"
+Grid.Column="2" Visibility="Hidden"/>
+            <StackPanel Orientation="Horizontal" Grid.Row="0"
+Grid.Column="2">
+                <TextBlock x:Name="text13" Foreground="White" FontSize="15" Margin="100 10 0 0" Visibility="Hidden">значение X- X2/2 + X3/3 - + (-1)N-1 XN/N</TextBlock>
+            </StackPanel>
+
+            <Button Width="100" Click="result13_Click" x:Name="result13" Background="Transparent" BorderBrush="White" Foreground="White" Content="результат" Grid.Row="1"
+Grid.Column="2" Visibility="Hidden"/>
+            <StackPanel Orientation="Horizontal" Grid.Row="0"
+Grid.Column="2">
+                <TextBlock x:Name="text14" Foreground="White" FontSize="15" Margin="90 10 0 0" Visibility="Hidden">значение X- X3/3 + X5/5 - + (-1)2N+1/(2N+1)</TextBlock>
+            </StackPanel>
+
+            <Button Width="100" Click="result14_Click" x:Name="result14" Background="Transparent" BorderBrush="White" Foreground="White" Content="результат" Grid.Row="1"
+Grid.Column="2" Visibility="Hidden"/>
+
+          
+
+
+        </Grid>
+    </Border>
+    
+
+</Window>
